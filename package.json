@@ -1,0 +1,31 @@
+{
+  "name": "await",
+  "version": "1.0.0",
+  "description": "Module that provide toolset for awaiting and timeout! And some await and time helpers! Promise based! And awesome with an async await flow!",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glitnirian/ExchangeAPI.git"
+  },
+  "author": "Glitnir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Glitnirian/ExchangeAPI/issues"
+  },
+  "homepage": "https://github.com/Glitnirian/ExchangeAPI#readme",
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.3",
+    "typescript": "^3.9.7"
+  },
+  "keywords": [
+    "await", "timeout", "timer", "promise", "async", "await"
+  ]
+}
