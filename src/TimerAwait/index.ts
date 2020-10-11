@@ -37,14 +37,14 @@ export class TimerAwait {
                 throw new Error('Out of range time to await value!')
             }
 
-            const timeLeftToResolve = nowTime - timeToAwait - this.startTime;
+            const resolveTimeLimit =  timeToAwait + this.startTime;
 
-            if (timeLeftToResolve <= 0) {
+            if (nowTime - resolveTimeLimit >= 0) {
                 resolve();
             } else {
                 setTimeout(() => {
                     resolve();
-                }, timeLeftToResolve);
+                }, resolveTimeLimit - nowTime);
             }
         });
     }

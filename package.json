@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Glitnirian/ExchangeAPI.git"
+    "url": "git+https://github.com/Glitnirian/await-js.git"
   },
   "author": "Glitnir",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Glitnirian/ExchangeAPI/issues"
+    "url": "https://github.com/Glitnirian/await-js/issues"
   },
-  "homepage": "https://github.com/Glitnirian/ExchangeAPI#readme",
+  "homepage": "https://github.com/Glitnirian/await-js#readme",
   "devDependencies": {
     "ts-node": "^8.10.2",
     "tslint": "^6.1.3",
